@@ -1,0 +1,13 @@
+cc_binary {
+    name: "gonkbrightness",
+    
+    srcs: [
+        "main.cpp",
+    ],
+    shared_libs: [
+        "libhidlbase",
+        "libutils",
+        "liblog",
+        "android.hardware.graphics.composer@2.3",
+    ],
+}
